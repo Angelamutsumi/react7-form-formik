@@ -30,20 +30,20 @@ const MyForm = () => {
            
         <br />
         <input 
-            placeholder="Email" {...formik.getField>props("email")}/>
+            placeholder="Email" {...formik.getFieldProps("email")}/>
            
         <br />
         <input 
-            placeholder="Password" {...formik.getField>props("password")}/>
+            placeholder="Password" {...formik.getFieldProps("password")}/>
         <br />
         <input 
-            placeholder="confirm password" {...formik.getField>props("confirmPassword")}/>
+            placeholder="Confirm password" {...formik.getFieldProps("confirmPassword")}/>
         <br />
         <input 
-            placeholder="Address" {...formik.getField>props("address")}/>
+            placeholder="Address" {...formik.getFieldProps("confirmPassword")}/>
         <br />
         <input 
-            placeholder="City" {...formik.getField>props("city")}/>
+            placeholder="City" {...formik.getFieldProps("city")}/>
       </form>
       <div style={{ textAlign: "left" }}>
         <pre>{JSON.stringify(formik.values, null, 2)}</pre>
